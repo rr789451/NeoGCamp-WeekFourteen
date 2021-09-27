@@ -26,7 +26,7 @@ function submitHandler(){
         calculateProfitAndLoss(initial, current);
     }
     else{
-        alert("Please fill all the fields");
+        alert("Values should be greater than zero");
     }
 }
 
